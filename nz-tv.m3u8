@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://i.mjh.nz/nz/epg.xml"
 
 #EXTINF:-1 channel-id="mjh-tvnz-1" tvg-id="mjh-tvnz-1" tvg-logo="https://i.mjh.nz/.images/tvnz-1.png" tvg-chno="1" group-title="Nz" , TVNZ 1
-pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ Mozilla/5.0\ (Windows\ NT\ 10.0;\ Win64;\ x64)\ AppleWebKit/537.36\ (KHTML,\ like\ Gecko)\ Chrome/98.0.4758.102\ Safari/537.36\r\nseekable:\ 0\r\nreferer:\ \ \r\n -i https://i.mjh.nz/tvnz-1.m3u8 -vcodec copy -acodec copy -metadata service_name=mjh-tvnz-1 -f mpegts pipe:1
+https://i.mjh.nz/tvnz-1.m3u8
 
 #EXTINF:-1 channel-id="mjh-tvnz-2" tvg-id="mjh-tvnz-2" tvg-logo="https://i.mjh.nz/.images/tvnz-2.png" tvg-chno="2" group-title="Nz" , TVNZ 2
 pipe://ffmpeg -loglevel fatal -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ Mozilla/5.0\ (Windows\ NT\ 10.0;\ Win64;\ x64)\ AppleWebKit/537.36\ (KHTML,\ like\ Gecko)\ Chrome/98.0.4758.102\ Safari/537.36\r\nseekable:\ 0\r\nreferer:\ \ \r\n -i https://i.mjh.nz/tvnz-2.m3u8 -vcodec copy -acodec copy -metadata service_name=mjh-tvnz-2 -f mpegts pipe:1
